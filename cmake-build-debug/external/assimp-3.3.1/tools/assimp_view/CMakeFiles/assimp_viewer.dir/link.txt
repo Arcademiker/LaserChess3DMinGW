@@ -1,0 +1,3 @@
+"T:\software\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\assimp_viewer.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\assimp_viewer.dir/objects.a @CMakeFiles\assimp_viewer.dir\objects1.rsp
+C:\MinGW\bin\g++.exe  -fvisibility=hidden -Wall -Wno-long-long -pedantic -std=c++11 -g  -mwindows -Wl,--whole-archive CMakeFiles\assimp_viewer.dir/objects.a -Wl,--no-whole-archive  -o assimp_viewerd.exe -Wl,--out-implib,libassimp_viewerd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\assimp_viewer.dir\linklibs.rsp

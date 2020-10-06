@@ -1,0 +1,1 @@
+ -lopengl32 -lglu32 external/glfw-3.1.2/src/libglfw3d.a external/libGLEW_1130d.a external/assimp-3.3.1/code/libassimpd.a C:/Users/st00x/CLionProjects/LaserChess3D3/external/soil/lib/SOIL.lib -lopengl32 -lglu32 external/assimp-3.3.1/contrib/zlib/libzlibstaticd.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

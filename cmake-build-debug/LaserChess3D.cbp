@@ -1,0 +1,2300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LaserChess3D"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\assimp-3.3.1\;CMake Files\external\assimp-3.3.1\cmake-modules\;CMake Files\external\assimp-3.3.1\contrib\;CMake Files\external\assimp-3.3.1\contrib\zlib\;CMake Files\external\assimp-3.3.1\code\;CMake Files\external\assimp-3.3.1\tools\;CMake Files\external\assimp-3.3.1\tools\assimp_view\;CMake Files\external\assimp-3.3.1\tools\assimp_cmd\;CMake Files\external\assimp-3.3.1\test\;CMake Files\external\assimp-3.3.1\test\headercheck\;CMake Files\external\glfw-3.1.2\;CMake Files\external\glfw-3.1.2\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="T:/git/LaserChess3DWindows-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LaserChess3D">
+				<Option output="T:/git/LaserChess3DWindows-master/cmake-build-debug/LaserChess3D.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glm-0.9.7.1"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glew-1.13.0/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/soil/src"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/."/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 LaserChess3D"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LaserChess3D/fast">
+				<Option output="T:/git/LaserChess3DWindows-master/cmake-build-debug/LaserChess3D.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glm-0.9.7.1"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glew-1.13.0/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/soil/src"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/."/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 LaserChess3D/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="T:/git/LaserChess3DWindows-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="T:/git/LaserChess3DWindows-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="T:/git/LaserChess3DWindows-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="T:/git/LaserChess3DWindows-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="T:/git/LaserChess3DWindows-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="T:/git/LaserChess3DWindows-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLEW_1130">
+				<Option output="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/libGLEW_1130d.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="T:/git/LaserChess3DWindows-master/cmake-build-debug/external"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/include/GLFW"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glew-1.13.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 GLEW_1130"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLEW_1130/fast">
+				<Option output="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/libGLEW_1130d.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="T:/git/LaserChess3DWindows-master/cmake-build-debug/external"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/include/GLFW"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glew-1.13.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 GLEW_1130/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/glfw-3.1.2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/glfw-3.1.2/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/glfw-3.1.2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/glfw-3.1.2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/glfw-3.1.2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/glfw-3.1.2/src/libglfw3d.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/glfw-3.1.2/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/src"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/glfw-3.1.2/src"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/glfw-3.1.2/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/glfw-3.1.2/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/glfw-3.1.2/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/glfw-3.1.2/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/glfw-3.1.2/src/libglfw3d.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/glfw-3.1.2/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/src"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/glfw-3.1.2/src"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/glfw-3.1.2/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/glfw-3.1.2/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/glfw-3.1.2/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/glfw-3.1.2/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlibstatic">
+				<Option output="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/contrib/zlib/libzlibstaticd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/contrib/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DOPENDDL_NO_USE_CPP11"/>
+					<Add option="-DASSIMP_BUILD_NO_IFC_IMPORTER"/>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add option="-DNO_FSEEKO"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/include/GLFW"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glew-1.13.0/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/."/>
+					<Add directory="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/contrib/zlib"/>
+					<Add directory="T:/git/LaserChess3DWindows-master"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/contrib/zlib/Makefile&quot;  VERBOSE=1 zlibstatic"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/contrib/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/contrib/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/contrib/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlibstatic/fast">
+				<Option output="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/contrib/zlib/libzlibstaticd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/contrib/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DOPENDDL_NO_USE_CPP11"/>
+					<Add option="-DASSIMP_BUILD_NO_IFC_IMPORTER"/>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add option="-DNO_FSEEKO"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/include/GLFW"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glew-1.13.0/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/."/>
+					<Add directory="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/contrib/zlib"/>
+					<Add directory="T:/git/LaserChess3DWindows-master"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/contrib/zlib/Makefile&quot;  VERBOSE=1 zlibstatic/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/contrib/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/contrib/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/contrib/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assimp">
+				<Option output="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/code/libassimpd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/code"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DOPENDDL_NO_USE_CPP11"/>
+					<Add option="-DASSIMP_BUILD_NO_IFC_IMPORTER"/>
+					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER"/>
+					<Add option="-DASSIMP_BUILD_DLL_EXPORT"/>
+					<Add option="-DOPENDDLPARSER_BUILD"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/include/GLFW"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glew-1.13.0/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/."/>
+					<Add directory="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/contrib/zlib"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/../contrib/rapidjson/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/../contrib/openddlparser/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/.."/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/code/Makefile&quot;  VERBOSE=1 assimp"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assimp/fast">
+				<Option output="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/code/libassimpd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/code"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DOPENDDL_NO_USE_CPP11"/>
+					<Add option="-DASSIMP_BUILD_NO_IFC_IMPORTER"/>
+					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER"/>
+					<Add option="-DASSIMP_BUILD_DLL_EXPORT"/>
+					<Add option="-DOPENDDLPARSER_BUILD"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/include/GLFW"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glew-1.13.0/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/."/>
+					<Add directory="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/contrib/zlib"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/../contrib/rapidjson/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/../contrib/openddlparser/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/.."/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/code/Makefile&quot;  VERBOSE=1 assimp/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assimp_viewer">
+				<Option output="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/tools/assimp_view/assimp_viewerd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DOPENDDL_NO_USE_CPP11"/>
+					<Add option="-DASSIMP_BUILD_NO_IFC_IMPORTER"/>
+					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/include/GLFW"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glew-1.13.0/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/."/>
+					<Add directory="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/contrib/zlib"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/tools/assimp_view/Makefile&quot;  VERBOSE=1 assimp_viewer"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/tools/assimp_view/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/tools/assimp_view/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/tools/assimp_view/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assimp_viewer/fast">
+				<Option output="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/tools/assimp_view/assimp_viewerd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DOPENDDL_NO_USE_CPP11"/>
+					<Add option="-DASSIMP_BUILD_NO_IFC_IMPORTER"/>
+					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/include/GLFW"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glew-1.13.0/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/."/>
+					<Add directory="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/contrib/zlib"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/tools/assimp_view/Makefile&quot;  VERBOSE=1 assimp_viewer/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/tools/assimp_view/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/tools/assimp_view/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/tools/assimp_view/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assimp_cmd">
+				<Option output="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/tools/assimp_cmd/assimpd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DOPENDDL_NO_USE_CPP11"/>
+					<Add option="-DASSIMP_BUILD_NO_IFC_IMPORTER"/>
+					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/include/GLFW"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glew-1.13.0/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/."/>
+					<Add directory="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/contrib/zlib"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 assimp_cmd"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assimp_cmd/fast">
+				<Option output="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/tools/assimp_cmd/assimpd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTW_STATIC"/>
+					<Add option="-DTW_NO_LIB_PRAGMA"/>
+					<Add option="-DTW_NO_DIRECT3D"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-DOPENDDL_NO_USE_CPP11"/>
+					<Add option="-DASSIMP_BUILD_NO_IFC_IMPORTER"/>
+					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/include/GLFW"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/glew-1.13.0/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/."/>
+					<Add directory="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/contrib/zlib"/>
+					<Add directory="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 assimp_cmd/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/tools/assimp_cmd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="T:/git/LaserChess3DWindows-master/CGame.cpp">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/CGame.h">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/CMap.cpp">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/CMap.h">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/CUnit.cpp">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/CUnit.h">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/CUnit_AI.cpp">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/CUnit_AI.h">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/CUnit_Player.cpp">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/CUnit_Player.h">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/CVAA.cpp">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/CVAA.h">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1/contrib/zlib/zconf.h">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/cmake-build-debug/external/glfw-3.1.2/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/common/CView.cpp">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/common/CView.h">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/common/Shader.cpp">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/common/Shader.h">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/common/objloader.cpp">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/common/objloader.hpp">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/common/vboindexer.cpp">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/common/vboindexer.hpp">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/3DSConverter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/3DSExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/3DSExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/3DSHelper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/3DSLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/3DSLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ACLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ACLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ASELoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ASELoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ASEParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ASEParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/AssbinExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/AssbinExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/AssbinLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/AssbinLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/Assimp.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/AssimpCExport.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/AssxmlExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/AssxmlExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/B3DImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/B3DImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/BVHLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/BVHLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/BaseImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/BaseImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/BaseProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/BaseProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/Bitmap.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/Bitmap.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/BlenderBMesh.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/BlenderBMesh.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/BlenderDNA.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/BlenderDNA.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/BlenderDNA.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/BlenderIntermediate.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/BlenderLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/BlenderLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/BlenderModifier.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/BlenderModifier.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/BlenderScene.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/BlenderScene.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/BlenderSceneGen.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/BlenderTessellator.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/BlenderTessellator.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/BlobIOSystem.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ByteSwapper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/CInterfaceIOWrapper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/COBLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/COBLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/COBScene.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/CSMLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/CSMLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/CalcTangentsProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/CalcTangentsProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ColladaExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ColladaExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ColladaHelper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ColladaLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ColladaLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ColladaParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ColladaParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ComputeUVMappingProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ComputeUVMappingProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ConvertToLHProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ConvertToLHProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/D3MFImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/D3MFImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/D3MFOpcPackage.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/D3MFOpcPackage.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/DXFHelper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/DXFLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/DXFLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/DeboneProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/DeboneProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/DefaultIOStream.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/DefaultIOStream.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/DefaultIOSystem.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/DefaultIOSystem.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/DefaultLogger.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/DefaultProgressHandler.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/Exporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXAnimation.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXBinaryTokenizer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXCompileConfig.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXConverter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXConverter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXDeformer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXDocument.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXDocument.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXDocumentUtil.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXDocumentUtil.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXImportSettings.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXMaterial.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXMeshGeometry.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXMeshGeometry.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXModel.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXNodeAttribute.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXProperties.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXProperties.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXTokenizer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXTokenizer.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXUtil.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FBXUtil.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FileLogStream.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FindDegenerates.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FindDegenerates.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FindInstancesProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FindInstancesProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FindInvalidDataProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FindInvalidDataProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FixNormalsStep.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/FixNormalsStep.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/GenFaceNormalsProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/GenFaceNormalsProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/GenVertexNormalsProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/GenVertexNormalsProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/GenericProperty.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/HMPFileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/HMPLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/HMPLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/HalfLifeFileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/Hash.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/IFCBoolean.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/IFCCurve.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/IFCGeometry.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/IFCLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/IFCLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/IFCMaterial.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/IFCOpenings.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/IFCProfile.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/IFCReaderGen.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/IFCReaderGen.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/IFCUtil.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/IFCUtil.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/IFF.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/IRRLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/IRRLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/IRRMeshLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/IRRMeshLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/IRRShared.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/IRRShared.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/Importer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/Importer.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ImporterRegistry.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ImproveCacheLocality.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ImproveCacheLocality.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/JoinVerticesProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/JoinVerticesProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/LWOAnimation.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/LWOAnimation.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/LWOBLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/LWOFileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/LWOLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/LWOLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/LWOMaterial.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/LWSLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/LWSLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/LimitBoneWeightsProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/LimitBoneWeightsProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/LineSplitter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/LogAux.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MD2FileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MD2Loader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MD2Loader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MD2NormalTable.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MD3FileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MD3Loader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MD3Loader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MD5Loader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MD5Loader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MD5Parser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MD5Parser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MDCFileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MDCLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MDCLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MDCNormalTable.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MDLDefaultColorMap.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MDLFileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MDLLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MDLLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MDLMaterialLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MS3DLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MS3DLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MakeVerboseFormat.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MakeVerboseFormat.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MaterialSystem.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MaterialSystem.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/MemoryIOWrapper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/NDOLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/NDOLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/NFFLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/NFFLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/OFFLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/OFFLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ObjExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ObjExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ObjFileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ObjFileImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ObjFileImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ObjFileMtlImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ObjFileMtlImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ObjFileParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ObjFileParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ObjTools.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/OgreBinarySerializer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/OgreBinarySerializer.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/OgreImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/OgreImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/OgreMaterial.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/OgreParsingUtils.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/OgreStructs.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/OgreStructs.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/OgreXmlSerializer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/OgreXmlSerializer.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/OpenGEXExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/OpenGEXExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/OpenGEXImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/OpenGEXImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/OpenGEXStructs.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/OptimizeGraph.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/OptimizeGraph.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/OptimizeMeshes.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/OptimizeMeshes.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ParsingUtils.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/PlyExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/PlyExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/PlyLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/PlyLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/PlyParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/PlyParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/PolyTools.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/PostStepRegistry.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/PretransformVertices.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/PretransformVertices.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ProcessHelper.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ProcessHelper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/Profiler.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/Q3BSPFileData.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/Q3BSPFileImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/Q3BSPFileImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/Q3BSPFileParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/Q3BSPFileParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/Q3BSPZipArchive.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/Q3BSPZipArchive.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/Q3DLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/Q3DLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/RawLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/RawLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/RemoveComments.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/RemoveComments.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/RemoveRedundantMaterials.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/RemoveRedundantMaterials.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/RemoveVCProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/RemoveVCProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/SGSpatialSort.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/SGSpatialSort.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/SIBImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/SIBImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/SMDLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/SMDLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/STEPFile.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/STEPFileEncoding.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/STEPFileEncoding.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/STEPFileReader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/STEPFileReader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/STLExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/STLExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/STLLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/STLLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/SceneCombiner.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/SceneCombiner.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ScenePreprocessor.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ScenePreprocessor.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ScenePrivate.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/SkeletonMeshBuilder.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/SkeletonMeshBuilder.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/SmoothingGroups.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/SortByPTypeProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/SortByPTypeProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/SpatialSort.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/SpatialSort.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/SplitByBoneCountProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/SplitByBoneCountProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/SplitLargeMeshes.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/SplitLargeMeshes.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/StandardShapes.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/StandardShapes.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/StdOStreamLogStream.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/StepExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/StepExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/StreamReader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/StreamWriter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/StringComparison.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/StringUtils.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/Subdivision.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/Subdivision.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/TargetAnimation.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/TargetAnimation.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/TerragenLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/TerragenLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/TextureTransform.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/TextureTransform.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/TinyFormatter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/TriangulateProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/TriangulateProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/UnrealLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/UnrealLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ValidateDataStructure.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/ValidateDataStructure.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/Version.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/Vertex.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/VertexTriangleAdjacency.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/VertexTriangleAdjacency.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/Win32DebugLogStream.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/XFileExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/XFileExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/XFileHelper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/XFileImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/XFileImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/XFileParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/XFileParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/XGLLoader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/XGLLoader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/XMLTools.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/fast_atof.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/glTFAsset.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/glTFAsset.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/glTFAssetWriter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/glTFAssetWriter.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/glTFExporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/glTFExporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/glTFImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/glTFImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/irrXMLWrapper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/qnan.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/ConvertUTF/ConvertUTF.c">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/ConvertUTF/ConvertUTF.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/clipper/clipper.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/clipper/clipper.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/irrXML/CXMLReaderImpl.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/irrXML/heapsort.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/irrXML/irrArray.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/irrXML/irrString.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/irrXML/irrTypes.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/irrXML/irrXML.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/irrXML/irrXML.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/openddlparser/code/DDLNode.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/openddlparser/code/OpenDDLCommon.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/openddlparser/code/OpenDDLExport.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/openddlparser/code/OpenDDLParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/openddlparser/code/Value.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/openddlparser/include/openddlparser/DDLNode.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/openddlparser/include/openddlparser/OpenDDLCommon.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/openddlparser/include/openddlparser/OpenDDLExport.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/openddlparser/include/openddlparser/OpenDDLParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/openddlparser/include/openddlparser/OpenDDLParserUtils.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/openddlparser/include/openddlparser/Value.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/poly2tri/poly2tri/common/shapes.cc">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/poly2tri/poly2tri/common/shapes.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/poly2tri/poly2tri/common/utils.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/poly2tri/poly2tri/sweep/advancing_front.cc">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/poly2tri/poly2tri/sweep/advancing_front.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/poly2tri/poly2tri/sweep/cdt.cc">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/poly2tri/poly2tri/sweep/cdt.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/poly2tri/poly2tri/sweep/sweep.cc">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/poly2tri/poly2tri/sweep/sweep.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/poly2tri/poly2tri/sweep/sweep_context.cc">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/poly2tri/poly2tri/sweep/sweep_context.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/unzip/crypt.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/unzip/ioapi.c">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/unzip/ioapi.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/unzip/unzip.c">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/unzip/unzip.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/adler32.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/compress.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/crc32.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/crc32.h">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/deflate.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/deflate.h">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/gzclose.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/gzguts.h">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/gzlib.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/gzread.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/gzwrite.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/infback.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/inffast.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/inffast.h">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/inffixed.h">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/inflate.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/inflate.h">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/inftrees.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/inftrees.h">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/trees.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/trees.h">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/uncompr.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/zlib.h">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/zutil.c">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/zutil.h">
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/Compiler/poppack1.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/Compiler/pstdint.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/Compiler/pushpack1.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/DefaultLogger.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/Exporter.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/IOStream.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/IOSystem.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/Importer.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/LogStream.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/Logger.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/NullLogger.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/ProgressHandler.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/ai_assert.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/anim.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/camera.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/cexport.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/cfileio.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/cimport.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/color4.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/color4.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/config.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/defs.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/importerdesc.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/light.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/material.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/material.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/matrix3x3.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/matrix3x3.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/matrix4x4.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/matrix4x4.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/mesh.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/metadata.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/postprocess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/quaternion.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/quaternion.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/scene.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/texture.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/types.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/vector2.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/vector2.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/vector3.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/vector3.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/include/assimp/version.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_cmd/CompareDump.cpp">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_cmd/Export.cpp">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_cmd/ImageExtractor.cpp">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_cmd/Info.cpp">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_cmd/Main.cpp">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_cmd/Main.h">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_cmd/WriteDumb.cpp">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_cmd/assimp_cmd.rc">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_cmd/resource.h">
+			<Option target="assimp_cmd"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/AnimEvaluator.cpp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/AnimEvaluator.h">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/Background.cpp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/Background.h">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/Display.cpp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/Display.h">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/HelpDialog.cpp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/Input.cpp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/LogDisplay.cpp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/LogDisplay.h">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/LogWindow.cpp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/LogWindow.h">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/Material.cpp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/MeshRenderer.cpp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/MeshRenderer.h">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/MessageProc.cpp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/Normals.cpp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/SceneAnimator.cpp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/SceneAnimator.h">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/Shaders.cpp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/Shaders.h">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/assimp_view.cpp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/assimp_view.h">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/assimp_view.rc">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/banner.bmp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/banner_pure.bmp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/base_anim.bmp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/base_display.bmp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/base_inter.bmp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/base_rendering.bmp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/base_stats.bmp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/fx.bmp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/n.bmp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/root.bmp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/stdafx.cpp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/stdafx.h">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/tx.bmp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/txi.bmp">
+			<Option target="assimp_viewer"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glew-1.13.0/src/glew.c">
+			<Option target="GLEW_1130"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/src/wgl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/src/wgl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/src/win32_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/src/win32_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/src/win32_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/src/win32_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/src/win32_tls.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/src/win32_tls.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/src/win32_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/src/winmm_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/src/winmm_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/main.cpp">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/units/CCommandUnit.cpp">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/units/CCommandUnit.h">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/units/CDreadnought.cpp">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/units/CDreadnought.h">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/units/CDrone.cpp">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/units/CDrone.h">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/units/CGrunt.cpp">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/units/CGrunt.h">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/units/CJumpship.cpp">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/units/CJumpship.h">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/units/CTank.cpp">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/units/CTank.h">
+			<Option target="LaserChess3D"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\assimp-3.3.1\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/assimp-config-version.cmake.in">
+			<Option virtualFolder="CMake Files\external\assimp-3.3.1\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/assimp-config.cmake.in">
+			<Option virtualFolder="CMake Files\external\assimp-3.3.1\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/assimp.pc.in">
+			<Option virtualFolder="CMake Files\external\assimp-3.3.1\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/revision.h.in">
+			<Option virtualFolder="CMake Files\external\assimp-3.3.1\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/cmake-modules/AddGTest.cmake">
+			<Option virtualFolder="CMake Files\external\assimp-3.3.1\cmake-modules\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/cmake-modules/FindDirectX.cmake">
+			<Option virtualFolder="CMake Files\external\assimp-3.3.1\cmake-modules\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/cmake-modules/FindPkgMacros.cmake">
+			<Option virtualFolder="CMake Files\external\assimp-3.3.1\cmake-modules\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/cmake-modules/FindZLIB.cmake">
+			<Option virtualFolder="CMake Files\external\assimp-3.3.1\cmake-modules\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/cmake-modules/PrecompiledHeader.cmake">
+			<Option virtualFolder="CMake Files\external\assimp-3.3.1\cmake-modules\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\assimp-3.3.1\contrib\zlib\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/zconf.h.cmakein">
+			<Option virtualFolder="CMake Files\external\assimp-3.3.1\contrib\zlib\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/contrib/zlib/zlib.pc.cmakein">
+			<Option virtualFolder="CMake Files\external\assimp-3.3.1\contrib\zlib\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\assimp-3.3.1\code\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_view/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\assimp-3.3.1\tools\assimp_view\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/tools/assimp_cmd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\assimp-3.3.1\tools\assimp_cmd\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\assimp-3.3.1\test\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/assimp-3.3.1/test/headercheck/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\assimp-3.3.1\test\headercheck\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw-3.1.2\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\external\glfw-3.1.2\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw-3.1.2\src\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\external\glfw-3.1.2\src\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\external\glfw-3.1.2\src\"/>
+		</Unit>
+		<Unit filename="T:/git/LaserChess3DWindows-master/external/glfw-3.1.2/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\external\glfw-3.1.2\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

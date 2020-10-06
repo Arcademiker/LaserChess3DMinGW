@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{29DEF652-864E-4001-B91C-2D3074716D38}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\st00x\LC\LaserChess3DWindows\external\glfw-3.1.2;C:\Users\st00x\LC\LaserChess3DWindows\external\glm-0.9.7.1;C:\Users\st00x\LC\LaserChess3DWindows\external\glew-1.13.0\include;C:\Users\st00x\LC\LaserChess3DWindows\external\assimp-3.3.1\include;C:\Users\st00x\LC\LaserChess3DWindows\external\soil\src;C:\Users\st00x\LC\LaserChess3DWindows\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\st00x\LC\LaserChess3DWindows\external\glfw-3.1.2;C:\Users\st00x\LC\LaserChess3DWindows\external\glm-0.9.7.1;C:\Users\st00x\LC\LaserChess3DWindows\external\glew-1.13.0\include;C:\Users\st00x\LC\LaserChess3DWindows\external\assimp-3.3.1\include;C:\Users\st00x\LC\LaserChess3DWindows\external\soil\src;C:\Users\st00x\LC\LaserChess3DWindows\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\st00x\LC\LaserChess3DWindows\external\glfw-3.1.2;C:\Users\st00x\LC\LaserChess3DWindows\external\glm-0.9.7.1;C:\Users\st00x\LC\LaserChess3DWindows\external\glew-1.13.0\include;C:\Users\st00x\LC\LaserChess3DWindows\external\assimp-3.3.1\include;C:\Users\st00x\LC\LaserChess3DWindows\external\soil\src;C:\Users\st00x\LC\LaserChess3DWindows\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\st00x\LC\LaserChess3DWindows\external\glfw-3.1.2;C:\Users\st00x\LC\LaserChess3DWindows\external\glm-0.9.7.1;C:\Users\st00x\LC\LaserChess3DWindows\external\glew-1.13.0\include;C:\Users\st00x\LC\LaserChess3DWindows\external\assimp-3.3.1\include;C:\Users\st00x\LC\LaserChess3DWindows\external\soil\src;C:\Users\st00x\LC\LaserChess3DWindows\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\st00x\LC\LaserChess3DWindows\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/st00x/LC/LaserChess3DWindows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\programming\cmake-3.2.3-win32-x86\bin\cmake.exe -HC:/Users/st00x/LC/LaserChess3DWindows -BC:/Users/st00x/LC/LaserChess3DWindows/build --check-stamp-file C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/st00x/LC/LaserChess3DWindows/CMakeLists.txt;C:\Users\st00x\LC\LaserChess3DWindows\CMakeLists.txt;C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\3.2.3\CMakeSystem.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\3.2.3\CMakeCCompiler.cmake;C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\3.2.3\CMakeCXXCompiler.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\Windows.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeCInformation.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\3.2.3\CMakeRCCompiler.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeRCInformation.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\FindOpenGL.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\FindPackageMessage.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Users\st00x\LC\LaserChess3DWindows\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/st00x/LC/LaserChess3DWindows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\programming\cmake-3.2.3-win32-x86\bin\cmake.exe -HC:/Users/st00x/LC/LaserChess3DWindows -BC:/Users/st00x/LC/LaserChess3DWindows/build --check-stamp-file C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/st00x/LC/LaserChess3DWindows/CMakeLists.txt;C:\Users\st00x\LC\LaserChess3DWindows\CMakeLists.txt;C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\3.2.3\CMakeSystem.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\3.2.3\CMakeCCompiler.cmake;C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\3.2.3\CMakeCXXCompiler.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\Windows.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeCInformation.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\3.2.3\CMakeRCCompiler.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeRCInformation.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\FindOpenGL.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\FindPackageMessage.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Users\st00x\LC\LaserChess3DWindows\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/st00x/LC/LaserChess3DWindows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\programming\cmake-3.2.3-win32-x86\bin\cmake.exe -HC:/Users/st00x/LC/LaserChess3DWindows -BC:/Users/st00x/LC/LaserChess3DWindows/build --check-stamp-file C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/st00x/LC/LaserChess3DWindows/CMakeLists.txt;C:\Users\st00x\LC\LaserChess3DWindows\CMakeLists.txt;C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\3.2.3\CMakeSystem.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\3.2.3\CMakeCCompiler.cmake;C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\3.2.3\CMakeCXXCompiler.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\Windows.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeCInformation.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\3.2.3\CMakeRCCompiler.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeRCInformation.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\FindOpenGL.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\FindPackageMessage.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Users\st00x\LC\LaserChess3DWindows\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/st00x/LC/LaserChess3DWindows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\programming\cmake-3.2.3-win32-x86\bin\cmake.exe -HC:/Users/st00x/LC/LaserChess3DWindows -BC:/Users/st00x/LC/LaserChess3DWindows/build --check-stamp-file C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/st00x/LC/LaserChess3DWindows/CMakeLists.txt;C:\Users\st00x\LC\LaserChess3DWindows\CMakeLists.txt;C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\3.2.3\CMakeSystem.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\3.2.3\CMakeCCompiler.cmake;C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\3.2.3\CMakeCXXCompiler.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\Windows.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeCInformation.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\3.2.3\CMakeRCCompiler.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeRCInformation.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\FindOpenGL.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\FindPackageMessage.cmake;D:\programming\cmake-3.2.3-win32-x86\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Users\st00x\LC\LaserChess3DWindows\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\st00x\LC\LaserChess3DWindows\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/st00x/LC/LaserChess3DWindows/build/external/GLEW_1130.vcxproj">
+      <Project>EBDCA2C0-B8DB-4936-A2E3-116D7CDDCA6C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/st00x/LC/LaserChess3DWindows/build/LaserChess3D.vcxproj">
+      <Project>FACE4E0E-4A17-4AAB-94F2-FFFAD89E091B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/st00x/LC/LaserChess3DWindows/build/ZERO_CHECK.vcxproj">
+      <Project>8A114ED7-8520-44C7-99B7-FD18E81AE889</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/st00x/LC/LaserChess3DWindows/build/external/assimp-3.3.1/code/assimp.vcxproj">
+      <Project>FBBF864C-C1EA-4E76-AF7E-E45AD64AEB1C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/st00x/LC/LaserChess3DWindows/build/external/assimp-3.3.1/tools/assimp_cmd/assimp_cmd.vcxproj">
+      <Project>A16A497E-B312-47A7-BB22-8C414CF1528B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/st00x/LC/LaserChess3DWindows/build/external/assimp-3.3.1/tools/assimp_view/assimp_viewer.vcxproj">
+      <Project>F138F3D8-F76B-497E-B5ED-8F66146B7A52</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/st00x/LC/LaserChess3DWindows/build/external/glfw-3.1.2/src/glfw.vcxproj">
+      <Project>029A4C47-3A07-4EF2-A4B4-F734346B8D5A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/st00x/LC/LaserChess3DWindows/build/external/assimp-3.3.1/test/gtest.vcxproj">
+      <Project>A7DF9B65-955F-401C-8C55-13296E2341D0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/st00x/LC/LaserChess3DWindows/build/external/assimp-3.3.1/contrib/zlib/zlibstatic.vcxproj">
+      <Project>4553E859-94CC-4C3F-8C06-052A1DC51519</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

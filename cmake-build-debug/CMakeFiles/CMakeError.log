@@ -1,0 +1,119 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: T:/git/LaserChess3DWindows-master/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_f9b2d/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f9b2d.dir\build.make CMakeFiles/cmTC_f9b2d.dir/build
+mingw32-make.exe[1]: Entering directory 'T:/git/LaserChess3DWindows-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9b2d.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles\cmTC_f9b2d.dir\src.c.obj   -c T:\git\LaserChess3DWindows-master\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+T:\git\LaserChess3DWindows-master\cmake-build-debug\CMakeFiles\CMakeTmp\src.c: In function 'main':
+T:\git\LaserChess3DWindows-master\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:15:3: warning: implicit declaration of function 'pthread_atfork' [-Wimplicit-function-declaration]
+   pthread_atfork(NULL, NULL, NULL);
+   ^
+Linking C executable cmTC_f9b2d.exe
+"T:\software\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f9b2d.dir\link.txt --verbose=1
+"T:\software\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_f9b2d.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_f9b2d.dir/objects.a @CMakeFiles\cmTC_f9b2d.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -DCMAKE_HAVE_LIBC_PTHREAD    -Wl,--whole-archive CMakeFiles\cmTC_f9b2d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f9b2d.exe -Wl,--out-implib,libcmTC_f9b2d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f9b2d.dir\linklibs.rsp
+CMakeFiles\cmTC_f9b2d.dir/objects.a(src.c.obj):src.c:(.text+0x36): undefined reference to `pthread_create'
+CMakeFiles\cmTC_f9b2d.dir/objects.a(src.c.obj):src.c:(.text+0x4a): undefined reference to `pthread_detach'
+CMakeFiles\cmTC_f9b2d.dir/objects.a(src.c.obj):src.c:(.text+0x5e): undefined reference to `pthread_cancel'
+CMakeFiles\cmTC_f9b2d.dir/objects.a(src.c.obj):src.c:(.text+0x7a): undefined reference to `pthread_join'
+CMakeFiles\cmTC_f9b2d.dir/objects.a(src.c.obj):src.c:(.text+0x96): undefined reference to `pthread_atfork'
+CMakeFiles\cmTC_f9b2d.dir/objects.a(src.c.obj):src.c:(.text+0xa2): undefined reference to `pthread_exit'
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_f9b2d.dir\build.make:107: recipe for target 'cmTC_f9b2d.exe' failed
+mingw32-make.exe[1]: *** [cmTC_f9b2d.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'T:/git/LaserChess3DWindows-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:140: recipe for target 'cmTC_f9b2d/fast' failed
+mingw32-make.exe: *** [cmTC_f9b2d/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: T:/git/LaserChess3DWindows-master/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_baf65/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_baf65.dir\build.make CMakeFiles/cmTC_baf65.dir/build
+mingw32-make.exe[1]: Entering directory 'T:/git/LaserChess3DWindows-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_baf65.dir/CheckFunctionExists.c.obj
+C:\MinGW\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles\cmTC_baf65.dir\CheckFunctionExists.c.obj   -c "T:\software\CLion 2020.2.3\bin\cmake\win\share\cmake-3.17\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_baf65.exe
+"T:\software\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_baf65.dir\link.txt --verbose=1
+"T:\software\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_baf65.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_baf65.dir/objects.a @CMakeFiles\cmTC_baf65.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -DCHECK_FUNCTION_EXISTS=pthread_create    -Wl,--whole-archive CMakeFiles\cmTC_baf65.dir/objects.a -Wl,--no-whole-archive  -o cmTC_baf65.exe -Wl,--out-implib,libcmTC_baf65.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_baf65.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/ld.exe: cannot find -lpthreads
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_baf65.dir\build.make:107: recipe for target 'cmTC_baf65.exe' failed
+mingw32-make.exe[1]: *** [cmTC_baf65.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'T:/git/LaserChess3DWindows-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:140: recipe for target 'cmTC_baf65/fast' failed
+mingw32-make.exe: *** [cmTC_baf65/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test _GLFW_HAS_64ASLR failed with the following output:
+Change Dir: T:/git/LaserChess3DWindows-master/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_f3c1e/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f3c1e.dir\build.make CMakeFiles/cmTC_f3c1e.dir/build
+mingw32-make.exe[1]: Entering directory 'T:/git/LaserChess3DWindows-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3c1e.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va   -o CMakeFiles\cmTC_f3c1e.dir\src.c.obj   -c T:\git\LaserChess3DWindows-master\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_f3c1e.exe
+"T:\software\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f3c1e.dir\link.txt --verbose=1
+"T:\software\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_f3c1e.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_f3c1e.dir/objects.a @CMakeFiles\cmTC_f3c1e.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va    -Wl,--whole-archive CMakeFiles\cmTC_f3c1e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f3c1e.exe -Wl,--out-implib,libcmTC_f3c1e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f3c1e.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/ld.exe: unrecognized option '--high-entropy-va'
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_f3c1e.dir\build.make:107: recipe for target 'cmTC_f3c1e.exe' failed
+mingw32-make.exe[1]: *** [cmTC_f3c1e.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'T:/git/LaserChess3DWindows-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:140: recipe for target 'cmTC_f3c1e/fast' failed
+mingw32-make.exe: *** [cmTC_f3c1e/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the function fseeko exists failed with the following output:
+Change Dir: T:/git/LaserChess3DWindows-master/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_b9c77/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b9c77.dir\build.make CMakeFiles/cmTC_b9c77.dir/build
+mingw32-make.exe[1]: Entering directory 'T:/git/LaserChess3DWindows-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9c77.dir/CheckFunctionExists.c.obj
+C:\MinGW\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles\cmTC_b9c77.dir\CheckFunctionExists.c.obj   -c "T:\software\CLion 2020.2.3\bin\cmake\win\share\cmake-3.17\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_b9c77.exe
+"T:\software\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b9c77.dir\link.txt --verbose=1
+"T:\software\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_b9c77.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_b9c77.dir/objects.a @CMakeFiles\cmTC_b9c77.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -DCHECK_FUNCTION_EXISTS=fseeko    -Wl,--whole-archive CMakeFiles\cmTC_b9c77.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b9c77.exe -Wl,--out-implib,libcmTC_b9c77.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b9c77.dir\linklibs.rsp
+CMakeFiles\cmTC_b9c77.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `fseeko'
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_b9c77.dir\build.make:107: recipe for target 'cmTC_b9c77.exe' failed
+mingw32-make.exe[1]: *** [cmTC_b9c77.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'T:/git/LaserChess3DWindows-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:140: recipe for target 'cmTC_b9c77/fast' failed
+mingw32-make.exe: *** [cmTC_b9c77/fast] Error 2
+
+
+

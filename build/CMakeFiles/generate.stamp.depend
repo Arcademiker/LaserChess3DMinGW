@@ -1,0 +1,25 @@
+# CMake generation dependency list for this directory.
+C:/Users/st00x/LC/LaserChess3DWindows/CMakeLists.txt
+C:/Users/st00x/LC/LaserChess3DWindows/build/CMakeFiles/3.2.3/CMakeSystem.cmake
+D:/programming/cmake-3.2.3-win32-x86/share/cmake-3.2/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/st00x/LC/LaserChess3DWindows/build/CMakeFiles/3.2.3/CMakeCCompiler.cmake
+C:/Users/st00x/LC/LaserChess3DWindows/build/CMakeFiles/3.2.3/CMakeCXXCompiler.cmake
+D:/programming/cmake-3.2.3-win32-x86/share/cmake-3.2/Modules/CMakeSystemSpecificInformation.cmake
+D:/programming/cmake-3.2.3-win32-x86/share/cmake-3.2/Modules/CMakeGenericSystem.cmake
+D:/programming/cmake-3.2.3-win32-x86/share/cmake-3.2/Modules/Platform/Windows.cmake
+D:/programming/cmake-3.2.3-win32-x86/share/cmake-3.2/Modules/Platform/WindowsPaths.cmake
+D:/programming/cmake-3.2.3-win32-x86/share/cmake-3.2/Modules/CMakeCInformation.cmake
+D:/programming/cmake-3.2.3-win32-x86/share/cmake-3.2/Modules/Platform/Windows-MSVC-C.cmake
+D:/programming/cmake-3.2.3-win32-x86/share/cmake-3.2/Modules/Platform/Windows-MSVC.cmake
+C:/Users/st00x/LC/LaserChess3DWindows/build/CMakeFiles/3.2.3/CMakeRCCompiler.cmake
+D:/programming/cmake-3.2.3-win32-x86/share/cmake-3.2/Modules/CMakeRCInformation.cmake
+D:/programming/cmake-3.2.3-win32-x86/share/cmake-3.2/Modules/CMakeCommonLanguageInclude.cmake
+D:/programming/cmake-3.2.3-win32-x86/share/cmake-3.2/Modules/CMakeCXXInformation.cmake
+D:/programming/cmake-3.2.3-win32-x86/share/cmake-3.2/Modules/Compiler/MSVC-CXX.cmake
+D:/programming/cmake-3.2.3-win32-x86/share/cmake-3.2/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/programming/cmake-3.2.3-win32-x86/share/cmake-3.2/Modules/Platform/Windows-MSVC.cmake
+D:/programming/cmake-3.2.3-win32-x86/share/cmake-3.2/Modules/CMakeCommonLanguageInclude.cmake
+D:/programming/cmake-3.2.3-win32-x86/share/cmake-3.2/Modules/FindOpenGL.cmake
+D:/programming/cmake-3.2.3-win32-x86/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake
+D:/programming/cmake-3.2.3-win32-x86/share/cmake-3.2/Modules/FindPackageMessage.cmake
+D:/programming/cmake-3.2.3-win32-x86/share/cmake-3.2/Modules/CMakeParseArguments.cmake
