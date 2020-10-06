@@ -1,0 +1,13 @@
+# Target labels
+ gtest
+# Source files and their labels
+T:/git/LaserChess3DWindows-master/cmake-build-release/external/assimp-3.3.1/test/CMakeFiles/gtest
+T:/git/LaserChess3DWindows-master/cmake-build-release/external/assimp-3.3.1/test/CMakeFiles/gtest.rule
+T:/git/LaserChess3DWindows-master/cmake-build-release/external/assimp-3.3.1/test/CMakeFiles/gtest-complete.rule
+T:/git/LaserChess3DWindows-master/cmake-build-release/external/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-install.rule
+T:/git/LaserChess3DWindows-master/cmake-build-release/external/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-mkdir.rule
+T:/git/LaserChess3DWindows-master/cmake-build-release/external/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-download.rule
+T:/git/LaserChess3DWindows-master/cmake-build-release/external/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-update.rule
+T:/git/LaserChess3DWindows-master/cmake-build-release/external/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-patch.rule
+T:/git/LaserChess3DWindows-master/cmake-build-release/external/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-configure.rule
+T:/git/LaserChess3DWindows-master/cmake-build-release/external/assimp-3.3.1/test/gtest/src/gtest-stamp/gtest-build.rule

@@ -1,0 +1,37 @@
+"T:\software\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -DCMAKE_BUILD_TYPE=Release -DASSIMP_BUILD_ASSIMP_TOOLS=OFF -G "CodeBlocks - MinGW Makefiles" T:\git\LaserChess3DWindows-master
+CMake Deprecation Warning at external/glfw-3.1.2/CMakeLists.txt:8 (cmake_policy):
+  The OLD behavior for policy CMP0042 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- Using Win32 for window creation
+-- Using WGL for context creation
+-- Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
+-- Looking for DirectX...
+-- DirectX_PREFIX_PATH changed.
+-- Found DirectX: C:/MinGW/lib/libd3d9.a
+-- DX lib dir: C:/MinGW/lib
+-- Looking for ZLIB...
+-- Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
+-- Could not locate ZLIB
+-- compiling zlib from souces
+CMake Deprecation Warning at external/assimp-3.3.1/contrib/zlib/CMakeLists.txt:8 (cmake_policy):
+  The OLD behavior for policy CMP0048 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- Enabled formats: 3DS AC ASE ASSBIN ASSXML B3D BVH COLLADA DXF CSM HMP IRRMESH IRR LWO LWS MD2 MD3 MD5 MDC MDL NFF NDO OFF OBJ OGRE OPENGEX PLY MS3D COB BLEND IFC XGL FBX Q3D Q3BSP RAW SIB SMD STL TERRAGEN 3D X GLTF 3MF
+-- Disabled formats:
+-- Configuring done
+-- Generating done
+-- Build files have been written to: T:/git/LaserChess3DWindows-master/cmake-build-release

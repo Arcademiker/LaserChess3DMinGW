@@ -1,0 +1,1 @@
+cmd='T:/software/CLion 2020.2.3/bin/cmake/win/bin/cmake.exe;-DCMAKE_BUILD_TYPE=Release;-Dgtest_force_shared_crt=ON;-Dgtest_disable_pthreads:BOOL=ON;-DBUILD_GTEST=ON;-GCodeBlocks - MinGW Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

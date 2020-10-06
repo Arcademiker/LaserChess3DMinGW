@@ -1,1 +1,0 @@
-  -LT:/git/LaserChess3DWindows-master/cmake-build-debug/external/assimp-3.3.1  -L/lib  ../../code/libassimpd.a -Wl,-Bstatic -ld3d9 -Wl,-Bdynamic -lDirectX_D3DX9_LIBRARY-NOTFOUND -lcomctl32 -lwinmm ../../contrib/zlib/libzlibstaticd.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
