@@ -1,4 +1,18 @@
-# LaserChess3D for Windows
+# LaserChess3D for Windows (MinGW)
+
+Visual Studio Compiler Version: https://github.com/Arcademiker/LaserChess3DWindows
+
+Linux Version: https://github.com/Arcademiker/LaserChess3D
+
+ASCII Version: https://github.com/Arcademiker/LaserChess
+```
+run: .exe in /cmake-build-release
+
+cmake options in case you want to build it yourself:
+-DCMAKE_BUILD_TYPE=Release -DASSIMP_BUILD_ASSIMP_TOOLS=OFF
+
+Preferred Toolchain MinGW
+```
 
 some footage: https://youtu.be/X0fdCJ2tNFU
 
